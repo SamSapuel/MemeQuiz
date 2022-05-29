@@ -28,8 +28,8 @@
 
     <section class="video-landing">
         <div class="container">
-            <h1>asdasd</h1>
-            <p>ssss</p>
+            <h1>Welcome home, son</h1>
+            <p>Its our new world</p>
         </div>
     </section>
     <section class="vid-txt">
@@ -38,8 +38,8 @@
             <source src="./videos/beginning.mp4" type="video/mp4">
             </video>
             <div>
-                <h2>dfghjkl;</h2>
-                <p>sdfghjk</p>
+                <h2>Every saga has a beginning...</h2>
+                <p>Even CTU can't change it</p>
             </div>
         </div>
     </section>
