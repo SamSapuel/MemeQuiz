@@ -41,5 +41,19 @@
             <p>Copyright 2022 SHEVA</p>
         </div>
     </footer>
+
+    <script>
+    
+    const successCallback = (position) => {
+        geoChange(position);
+    } 
+
+    const errorCallback = (error) => {
+        console.error(error); 
+    }
+
+    const watchId = navigator.geolocation.watchPosition(successCallback, errorCallback);
+    
+    </script>
 </body>
 </html>

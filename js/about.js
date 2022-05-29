@@ -11,11 +11,20 @@ window.onload = function () {
 }
 
 // Fetch Api. Load and show current weather in Astana
-fetch("https://api.openweathermap.org/data/2.5/weather?lat=51&lon=71&appid=dfbb827f92b086f77e80a13de30ca008")
+
+function geoChange(pos) {
+    posLat = pos["coords"]["latitude"];
+    posLong = pos["coords"]["longitude"];
+    console.log(posLat);
+    console.log(posLong);
+    fetch("https://api.openweathermap.org/data/2.5/weather?lat="+posLat+"&lon="+posLong+"&appid=dfbb827f92b086f77e80a13de30ca008")
     .then(content => content.json())
     .then(data => {
-        $("#weather").text("Weather in Astana: " + data["main"]["temp"] + "°F.")
+        $("#weather").text("Weather in your city: " + data["main"]["temp"] + "°F.")
     })
     .catch(err => console.log(err))
+}
+
+
 
 

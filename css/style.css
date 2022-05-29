@@ -145,6 +145,7 @@ a, button {
 }
 
 header {
+    display: block;
     height: 82px;
     background: rgba(0, 0, 0, 0.5);
     transition: .2s ease-in-out;
@@ -299,6 +300,48 @@ header .container>a {
     line-height: 140%;
 }
 
+.video-page {
+    background: #333;
+}
+
+.video-landing {
+    background: url('../images/vidpgbg.jpg') no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    padding: 160px 0;
+    color: #FFF;
+}
+
+.video-landing h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.video-landing p {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.vid-txt .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+}
+
+.vid-txt .container video {
+    width: 40%;
+    height: auto;
+}
+
+.vid-txt .container>div {
+    width: 50%;
+}
+
 @media only screen and (max-width: 1200px) {
     html {
         font-size: 16px;
@@ -353,6 +396,14 @@ header .container>a {
 
     .landing .container>a {
         width: 80%;
+    }
+
+    .vid-txt .container {
+        flex-direction: column;
+    }
+
+    .vid-txt .container> div, .vid-txt .container video {
+        width: 100%;
     }
 }
 

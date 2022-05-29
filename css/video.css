@@ -106,7 +106,7 @@ header .container #header_icon:hover {
 
 .full-screen_body {
     padding: 50px 15px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #333;
     position: relative;
     z-index: 2;
     display: inline;

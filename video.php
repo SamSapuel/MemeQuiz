@@ -1,8 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html class="video-page" lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/video.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>♂Video♂</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/menu.js"></script>
@@ -22,31 +23,25 @@
             <input id="menu-cond" value="0" hidden/>
         </div>
     </header>
-    <div class = "wrapper">
-        <div class = "full-screen">
-            <div class = "full-screen_body">
-                <div class = "full-screen_title">Every saga has a beginning...</div>
-                <div class = "full-screen_text">Even CTU can't change it</div>
-            </div>
-            <video autoplay muted loop preload="auto" class = "full-screen_video">
-                <source type = "video/mp4" src = "/videos/beginning.mp4">
+
+
+
+    <section class="video-landing">
+        <div class="container">
+            <h1>asdasd</h1>
+            <p>ssss</p>
+        </div>
+    </section>
+    <section class="vid-txt">
+        <div class="container">
+            <video muted controls autoplay loop>
+            <source src="./videos/beginning.mp4" type="video/mp4">
             </video>
-        </div>
-        <div class = "content">
-            <div class = "content_container">
-                <p>Thats not a quiz page, but something better</p>
-                <p>Thats not a quiz page, but something better</p>
-                <p>Thats not a quiz page, but something better</p>
-                <p>Thats not a quiz page, but something better</p>
-                <p>Thats not a quiz page, but something better</p>
-                <p>Thats not a quiz page, but something better</p>
-                <p>Thats not a quiz page, but something better</p>
-                <p>Thats not a quiz page, but something better</p>
-                <p>Thats not a quiz page, but something better</p>
-                <p>Thats not a quiz page, but something better</p>
-                <p>Thats not a quiz page, but something better</p>
+            <div>
+                <h2>dfghjkl;</h2>
+                <p>sdfghjk</p>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>
