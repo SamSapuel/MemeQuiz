@@ -1,17 +1,11 @@
 # MemeQuiz
 ## Getting Started on local machine
-Doporučujeme používat OpenServer. Můžete si jej stáhnout [HERE](https://softradar.com/open-server/). Postačí verze Basic.
+Doporučujeme používat Xampp.  Můžete si jej stáhnout https://sourceforge.net/projects/xampp/
+Po instalaci spusťte aplikaci vyberte položku “Explorer” a přidejte složku s MemeQuiz webu do složky htdocs v složce Xamppu
+Poté spusťte apache z hlavní nabídky a zadejte do prohlížeče link “http://localhost/memequiz/index.php” 
 
-Přejděte do složky, do které jste uložili OpenServer, a dvakrát klikněte na stažený soubor.
+Abyste mohli se podívat na vysledky quizů potřebujete mít nainstalovaný telegram. Tady je link: “https://t.me/+pxpiEPhVt300NzVi”. Dostanete do skupiny kam přichází vysledky z všech quizů.
 
-Instalace bude zahájena. Během procesu budete požádáni o výběr složky, kam bude OpenServer nainstalován. Upozorňujeme, že nainstalovaný program zabírá 4 GB.
-Klepněte pravým tlačítkem myši na zaškrtávací políčko OpenServer a z nabídky vyberte "Složka projektu". Otevře se Průzkumník souborů se složkou domains.
-V této složce jsou uloženy weby, které lze spustit pomocí OpenServeru. Localhost již známe. Vytvořme novou složku pro naše stránky a pojmenujme memequiz.
-
-Přesuňte projekt do složky memequiz, kterou jsme vytvořili dříve.
-Restartujte OpenServer, aby viděl nový projekt. Poté otevřete prohlížeč a přejděte na http://memequiz
-
-<strong>!!!Chcete-li zjistit výsledky kvízu, musíte se zaregistrovat v Telegramu a následovat [ODKAZ](https://t.me/+pxpiEPhVt300NzVi) na pozvánku do skupiny s výsledky</strong>
 
 ## Requirments
 1. Dokumentace/Popis
@@ -23,7 +17,7 @@ Restartujte OpenServer, aby viděl nový projekt. Poté otevřete prohlížeč a
     - [x] Semantické značky "správné použití sémantických značek(section, article, nav, aside, ...)" 1 **REQUIRED**
     - [x] Grafika - SVG / Canvas	2
     - [x] Média - Audio/Video 1
-    - [x] Formulářové prvky Validace, typy, placeholder, autofocus 2
+    - [x] Formulářové prvky Validace, typy, placeholder, autofocus(Quiz form) 2
     - [ ] Offline aplikace "využití možnosti fungování stránky bez Internetového připojení(viz sekce Javascript)" 1
 
 
@@ -36,9 +30,9 @@ Restartujte OpenServer, aby viděl nový projekt. Poté otevřete prohlížeč a
 
 4. Javascript
     - [x] OOP přístup prototypová dědičnost, její využití, jmenné prostory 2 **REQUIRED**
-    - [x] Použití JS frameworku či knihovny	použití a pochopení frameworku či knihovny jQuery, React, Vue .. 1
-    - [x] Použití pokročilých JS API	využití pokročilých API (File API, Geolocation, Drag & Drop, LocalStorage, Sockety, ...) 3 **REQUIRED**
+    - [x] Použití JS frameworku či knihovny	použití a pochopení frameworku či knihovny (jQuery) 1
+    - [x] Použití pokročilých JS API	využití pokročilých API (Geolocation API) 3 **REQUIRED**
     - [ ] Funkční historie posun tlačítky zpět/vpřed prohlížeče - pokud to vyplývá z funkcionatilty (History API) 2
-    - [x] Ovládání medií	použití Média API (video, zvuk), přehrávání z JS 1
+    - [x] Ovládání medií	použití Média API (zvuk), přehrávání z JS 1
     - [ ] Offline aplikace využití JS API pro zjišťování stavu 1
-    - [x] JS práce se SVG události, tvorba, úpravy 2
+    - [x] JS práce se SVG události, tvorba, úpravy(header icon) 2
